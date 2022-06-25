@@ -1,0 +1,12 @@
+<button (click)="clearCanvas()" class="clear-canvas">Clear Canvas</button>
+<div class="container">
+    <div class="canvas" (mousemove)="cursor($event)" [style.cursor]="'none'" (mouseout)="invisible()"
+        (mouseover)="visible()">
+        <div class="cursor" [style.border]="cursorBorder" [style.left]="left" [style.top]="top"
+            [style.display]="visibility" [style.background-color]="color"></div>
+        <div *ngFor="let item of noOfDivs" class="pixel-element">
+            <div (click)="giveColor(item)" (mouseover)="mouseOver(item)" class="pixel-element-inner"
+                [style.background-color]="clicked(item) ? setColor(item):'black'"></div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+
+.eraser {
+    padding: 5px;
+    background-color: rgb(68, 13, 139);
+    color: aliceblue;
+    border: 2px solid rgb(247, 119, 151);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.colorPicker input {
+    padding: 1px;
+}
+
+.colorPicker {
+    margin-left: 60px;
+    display: inline-flex;
+    margin-right: 10px;
+    position: relative;
+    bottom: 1px;
+}
+
+.colorPicker h4 {
+    padding-right: 5px;
+    position: relative;
+    top: 2px;
+    font-size: 1.2rem;
+    -webkit-text-stroke: 1px grey;
+    text-shadow: 2px solid currentColor;
+}

@@ -1,0 +1,16 @@
+
+header {
+    height: 10vh;
+    background-color: rgb(94, 212, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    color: rgb(209, 44, 32);
+    -webkit-text-stroke: 1px black;
+    font-size: 3rem;
+}

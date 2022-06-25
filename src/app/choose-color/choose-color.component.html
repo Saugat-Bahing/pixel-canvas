@@ -1,0 +1,5 @@
+<div class="colorPicker">
+    <h4 [style.color]="inputColor">Color</h4>
+    <input type="color" (input)="giveColor()" [(ngModel)]="inputColor">
+</div>
+<button (click)="eraser()" [style.background-color]="backColor" class="eraser">Eraser</button>
